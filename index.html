@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img
+            src="assets\WhatsApp Image 2025-04-17 at 21.34.04.jpeg"
+            alt="Logo"
+          />
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="home">
+        <h1>Hi Yama, Welcome to my Website</h1>
+        <h3>Restu Agung Company</h3>
+        <div class="banner">
+          <img
+            class="slide"
+            src="assets\lovepik-high-mountain-scenery-in-switzerland-picture_500898599.jpg"
+            alt="Slide 1"
+          />
+          <img
+            class="slide"
+            src="assets\lovepik-a-picturesque-swiss-view-picture_500898278.jpg"
+            alt="Slide 2"
+          />
+          <img
+            class="slide"
+            src="assets\pngtree-france-picture-image_1677142.jpg"
+            alt="Slide 3"
+          />
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+          Halo! Saya adalah seorang profesional yang berdedikasi dalam
+          menciptakan solusi digital yang inovatif dan efisien. Dengan
+          pengalaman dalam pengembangan web, desain, dan teknologi terkini, saya
+          berkomitmen untuk membantu bisnis tumbuh melalui pendekatan kreatif
+          dan strategis.
+        </p>
+
+        <p>
+          Saya percaya bahwa setiap proyek adalah kesempatan untuk belajar dan
+          berkembang. Oleh karena itu, saya selalu berusaha memberikan hasil
+          terbaik, baik dalam hal fungsionalitas, estetika, maupun pengalaman
+          pengguna.
+        </p>
+        <p>
+          Selamat datang di Restu Agung Tour & Travel mitra perjalanan terbaik
+          Anda dalam menjelajahi keindahan Indonesia dan dunia! Kami adalah agen
+          perjalanan profesional yang berdedikasi untuk memberikan pengalaman
+          wisata yang tak terlupakan, nyaman, dan aman.
+        </p>
+        <b>Lebih dari Sekadar Perjalanan</b>
+      </section>
+
+      <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-gallery">
+          <img
+            src="assets\Squarespace-Website-Design-preview_mobile.jpg"
+            alt="Project 1"
+          />
+          <img src="assets\images.jpg" alt="Project 2" />
+          <img src="assets\26.jpg" alt="Project 3" />
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+          <form id="contactForm">
+            <label>Nama:</label>
+            <input type="text" id="nama" required />
+
+            <label>Tanggal Lahir (dd/mm/yyyy):</label>
+            <input
+              type="text"
+              id="tanggalLahir"
+              placeholder="dd/mm/yyyy"
+              required
+            />
+
+            <label>Jenis Kelamin:</label>
+            <div class="gender-options">
+              <label
+                ><input type="radio" name="gender" value="Laki-laki" />
+                Laki-laki</label
+              >
+              <label
+                ><input type="radio" name="gender" value="Perempuan" />
+                Perempuan</label
+              >
+            </div>
+
+            <label>Pesan:</label>
+            <textarea id="pesan" required></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+
+          <div class="form-output" id="formOutput">
+            <h3>Hasil Form</h3>
+            <p id="outputNama"></p>
+            <p id="outputTanggal"></p>
+            <p id="outputGender"></p>
+            <p id="outputPesan"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="#"
+          ><img src="assets\Facebook_f_logo_(2019).svg.webp" alt="Facebook"
+        /></a>
+        <a href="#"
+          ><img
+            src="assets\new-twitter-x-logo-twitter-icon-x-social-media-icon-free-png.webp"
+            alt="Twitter"
+        /></a>
+        <a href="#"
+          ><img src="assets\Instagram_icon.png.webp" alt="Instagram"
+        /></a>
+        <a href="#"
+          ><img src="assets\tiktok-icon-free-png.webp" alt="Tiktok"
+        /></a>
+      </div>
+      <p>&copy; 2025 Restu Agung Company . All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
